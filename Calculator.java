@@ -4,6 +4,7 @@ public class Calculator {
         addition(5, 3); 
         subtraction(5, 3);
 	multiplication(5, 3);
+	division(5, 3);
     }
 
     public static void addition(int a, int b) {
@@ -17,5 +18,10 @@ public class Calculator {
     public static void multiplication(int a, int b) {
     	System.out.println("Multiplication: " + (a * b));
     }
+
+    public static void division(int a, int b) {
+    	System.out.println("Division: " + (a / b));
+    }
+
 
 }
